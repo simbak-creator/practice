@@ -1,7 +1,7 @@
 // main.js
-import Maze from './maze.js';
-import AStar from './aStar.js';
-import Renderer from './renderer.js';
+import Maze from '/maze.js';
+import AStar from '/aStar.js';
+import Renderer from '/renderer.js';
 
 const canvas = document.getElementById('canvas');
 const renderer = new Renderer(canvas);
