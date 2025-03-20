@@ -2,13 +2,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maze Generator and Pathfinding Visualizer</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Generator and Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <canvas id="canvas"></canvas>
-<script type="module" src="main.js"></script>
+    <div class="maze-container">
+        <canvas id="maze-canvas"></canvas>
+    </div>
+    <div class="algorithm-selector">
+        <button id="a-star-btn">A*</button>
+        <button id="dijkstra-btn">Dijkstra's Algorithm</button>
+        <button id="bfs-btn">Breadth-First Search (BFS)</button>
+    </div>
+    <div class="controls">
+        <button id="start-btn">Start</button>
+        <button id="pause-btn">Pause</button>
+        <button id="reset-btn">Reset</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
